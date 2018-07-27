@@ -2,7 +2,6 @@
 
 const assert = require('assert')
 const baddress = require('../src/address')
-const bcrypto = require('../src/crypto')
 const bscript = require('../src/script')
 const ops = require('bitcoin-ops')
 const payments = require('../src/payments')
@@ -13,11 +12,6 @@ const TransactionBuilder = require('../src/transaction_builder')
 const NETWORKS = require('../src/networks')
 
 const fixtures = require('./fixtures/transaction_builder')
-
-// TODO: remove
-function getAddress (node) {
-  return baddress.toBase58Check(bcrypto.hash160(node.publicKey), NETWORKS.bitcoin.pubKeyHash)
-}
 
 function construct (f, dontSign) {
   const network = NETWORKS[f.network]
@@ -228,7 +222,7 @@ describe('TransactionBuilder', function () {
     })
 
     it('accepts an address string and value', function () {
-      const address = getAddress(keyPair)
+      const { address } = payments.p2pkh({ pubkey: keyPair.publicKey })
       const vout = txb.addOutput(address, 1000)
       assert.strictEqual(vout, 0)
 
