@@ -5,6 +5,7 @@
       "arguments": {
         "address": "bc1q6rgl33d3s9dugudw7n68yrryajkr3ha9q8q24j20zs62se4q9tsqdy0t2q"
       },
+      "options": {},
       "expected": {
         "hash": "d0d1f8c5b1815bc471aef4f4720c64ecac38dfa501c0aac94f1434a866a02ae0",
         "output": "OP_0 d0d1f8c5b1815bc471aef4f4720c64ecac38dfa501c0aac94f1434a866a02ae0",
@@ -18,6 +19,7 @@
       "arguments": {
         "hash": "d0d1f8c5b1815bc471aef4f4720c64ecac38dfa501c0aac94f1434a866a02ae0"
       },
+      "options": {},
       "expected": {
         "address": "bc1q6rgl33d3s9dugudw7n68yrryajkr3ha9q8q24j20zs62se4q9tsqdy0t2q",
         "output": "OP_0 d0d1f8c5b1815bc471aef4f4720c64ecac38dfa501c0aac94f1434a866a02ae0",
@@ -31,6 +33,7 @@
       "arguments": {
         "output": "OP_0 d0d1f8c5b1815bc471aef4f4720c64ecac38dfa501c0aac94f1434a866a02ae0"
       },
+      "options": {},
       "expected": {
         "address": "bc1q6rgl33d3s9dugudw7n68yrryajkr3ha9q8q24j20zs62se4q9tsqdy0t2q",
         "hash": "d0d1f8c5b1815bc471aef4f4720c64ecac38dfa501c0aac94f1434a866a02ae0",
@@ -47,6 +50,7 @@
           "output": "OP_DUP OP_HASH160 c30afa58ae0673b00a45b5c17dff4633780f1400 OP_EQUALVERIFY OP_CHECKSIG"
         }
       },
+      "options": {},
       "expected": {
         "address": "bc1qusxlgq9quu27ucxs7a2fg8nv0pycdzvxsjk9npyupupxw3y892ss2cq5ar",
         "hash": "e40df400a0e715ee60d0f754941e6c784986898684ac59849c0f026744872aa1",
@@ -63,6 +67,7 @@
           "output": "OP_0 c30afa58ae0673b00a45b5c17dff4633780f1400"
         }
       },
+      "options": {},
       "expected": {
         "address": "bc1qpsl7el8wcx22f3fpdt3lm2wmzug7yyx2q3n8wzgtf37kps9tqy7skc7m3e",
         "hash": "0c3fecfceec194a4c5216ae3fda9db1711e210ca046677090b4c7d60c0ab013d",
@@ -79,6 +84,7 @@
           "pubkey": "this is P2WPKH context, unknown and ignored by p2wsh"
         }
       },
+      "options": {},
       "expected": {
         "address": "bc1q6rgl33d3s9dugudw7n68yrryajkr3ha9q8q24j20zs62se4q9tsqdy0t2q",
         "hash": "d0d1f8c5b1815bc471aef4f4720c64ecac38dfa501c0aac94f1434a866a02ae0",
@@ -95,6 +101,7 @@
           "input": "3045022100e4fce9ec72b609a2df1dc050c20dcf101d27faefb3e686b7a4cb067becdd5e8e022071287fced53806b08cf39b5ad58bbe614775b3776e98a9f8760af0d4d1d47a9501 03e15819590382a9dd878f01e2f0cbce541564eb415e43b440472d883ecd283058"
         }
       },
+      "options": {},
       "expected": {
         "address": "bc1qusxlgq9quu27ucxs7a2fg8nv0pycdzvxsjk9npyupupxw3y892ss2cq5ar",
         "hash": "e40df400a0e715ee60d0f754941e6c784986898684ac59849c0f026744872aa1",
@@ -122,6 +129,7 @@
           ]
         }
       },
+      "options": {},
       "expected": {
         "address": "bc1qpsl7el8wcx22f3fpdt3lm2wmzug7yyx2q3n8wzgtf37kps9tqy7skc7m3e",
         "hash": "0c3fecfceec194a4c5216ae3fda9db1711e210ca046677090b4c7d60c0ab013d",
@@ -142,6 +150,7 @@
           "2103e15819590382a9dd878f01e2f0cbce541564eb415e43b440472d883ecd283058ac"
         ]
       },
+      "options": {},
       "expected": {
         "address": "bc1q6rgl33d3s9dugudw7n68yrryajkr3ha9q8q24j20zs62se4q9tsqdy0t2q",
         "hash": "d0d1f8c5b1815bc471aef4f4720c64ecac38dfa501c0aac94f1434a866a02ae0",
@@ -165,6 +174,7 @@
           "0014c30afa58ae0673b00a45b5c17dff4633780f1400"
         ]
       },
+      "options": {},
       "expected": {
         "address": "bc1qpsl7el8wcx22f3fpdt3lm2wmzug7yyx2q3n8wzgtf37kps9tqy7skc7m3e",
         "hash": "0c3fecfceec194a4c5216ae3fda9db1711e210ca046677090b4c7d60c0ab013d",

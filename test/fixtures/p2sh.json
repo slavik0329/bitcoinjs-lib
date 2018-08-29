@@ -5,6 +5,7 @@
       "arguments": {
         "address": "3GETYP4cuSesh2zsPEEYVZqnRedwe4FwUT"
       },
+      "options": {},
       "expected": {
         "hash": "9f840a5fc02407ef0ad499c2ec0eb0b942fb0086",
         "output": "OP_HASH160 9f840a5fc02407ef0ad499c2ec0eb0b942fb0086 OP_EQUAL",
@@ -18,6 +19,7 @@
       "arguments": {
         "hash": "9f840a5fc02407ef0ad499c2ec0eb0b942fb0086"
       },
+      "options": {},
       "expected": {
         "address": "3GETYP4cuSesh2zsPEEYVZqnRedwe4FwUT",
         "output": "OP_HASH160 9f840a5fc02407ef0ad499c2ec0eb0b942fb0086 OP_EQUAL",
@@ -31,6 +33,7 @@
       "arguments": {
         "output": "OP_HASH160 9f840a5fc02407ef0ad499c2ec0eb0b942fb0086 OP_EQUAL"
       },
+      "options": {},
       "expected": {
         "address": "3GETYP4cuSesh2zsPEEYVZqnRedwe4FwUT",
         "hash": "9f840a5fc02407ef0ad499c2ec0eb0b942fb0086",
@@ -47,6 +50,7 @@
           "output": "OP_DUP OP_HASH160 c30afa58ae0673b00a45b5c17dff4633780f1400 OP_EQUALVERIFY OP_CHECKSIG"
         }
       },
+      "options": {},
       "expected": {
         "address": "3GETYP4cuSesh2zsPEEYVZqnRedwe4FwUT",
         "hash": "9f840a5fc02407ef0ad499c2ec0eb0b942fb0086",
@@ -63,6 +67,7 @@
           "output": "OP_0 c30afa58ae0673b00a45b5c17dff4633780f1400"
         }
       },
+      "options": {},
       "expected": {
         "address": "325CuTNSYmvurXaBmhNFer5zDkKnDXZggu",
         "hash": "0432515d8fe8de31be8207987fc6d67b29d5e7cc",
@@ -79,6 +84,7 @@
           "pubkey": "this is P2WPKH context, unknown and ignored by P2SH"
         }
       },
+      "options": {},
       "expected": {
         "address": "36TibC8RrPB9WrBdPoGXhHqDHJosyFVtVQ",
         "hash": "3454c084887afe854e80221c69d6282926f809c4",
@@ -95,6 +101,7 @@
           "input": "3045022100e4fce9ec72b609a2df1dc050c20dcf101d27faefb3e686b7a4cb067becdd5e8e022071287fced53806b08cf39b5ad58bbe614775b3776e98a9f8760af0d4d1d47a9501 03e15819590382a9dd878f01e2f0cbce541564eb415e43b440472d883ecd283058"
         }
       },
+      "options": {},
       "expected": {
         "address": "3GETYP4cuSesh2zsPEEYVZqnRedwe4FwUT",
         "hash": "9f840a5fc02407ef0ad499c2ec0eb0b942fb0086",
@@ -115,6 +122,7 @@
           ]
         }
       },
+      "options": {},
       "expected": {
         "address": "325CuTNSYmvurXaBmhNFer5zDkKnDXZggu",
         "hash": "0432515d8fe8de31be8207987fc6d67b29d5e7cc",
@@ -131,6 +139,7 @@
       "arguments": {
         "input": "3045022100e4fce9ec72b609a2df1dc050c20dcf101d27faefb3e686b7a4cb067becdd5e8e022071287fced53806b08cf39b5ad58bbe614775b3776e98a9f8760af0d4d1d47a9501 2103e15819590382a9dd878f01e2f0cbce541564eb415e43b440472d883ecd283058ac"
       },
+      "options": {},
       "expected": {
         "address": "36TibC8RrPB9WrBdPoGXhHqDHJosyFVtVQ",
         "hash": "3454c084887afe854e80221c69d6282926f809c4",
@@ -152,6 +161,7 @@
           "03e15819590382a9dd878f01e2f0cbce541564eb415e43b440472d883ecd283058"
         ]
       },
+      "options": {},
       "expected": {
         "address": "325CuTNSYmvurXaBmhNFer5zDkKnDXZggu",
         "hash": "0432515d8fe8de31be8207987fc6d67b29d5e7cc",
