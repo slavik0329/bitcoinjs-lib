@@ -5,7 +5,7 @@ const bscript = require('./script')
 const networks = require('./networks')
 const typeforce = require('typeforce')
 const types = require('./types')
-const payments = require('./payments')
+const payments = require('./payments/index')
 
 function fromBase58Check (address) {
   const payload = bs58check.decode(address)
